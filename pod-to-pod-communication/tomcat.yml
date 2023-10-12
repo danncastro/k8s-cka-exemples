@@ -6,6 +6,6 @@ metadata:
     apps: frontend-java
     
 spec:
-  containeres:
+  containers:
     - name: container-tomcat
       image: tomcat

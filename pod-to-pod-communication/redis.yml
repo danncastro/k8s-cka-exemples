@@ -6,6 +6,6 @@ metadata:
     apps: backend
     
 spec:
-  containeres:
+  containers:
     - name: container-redis
       image: redis
