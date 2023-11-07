@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  nome: web-pod
+  nome: web-server-pod
   labels:
-    type: web-app
+    type: web-server-app
 
 spec:
   containers:

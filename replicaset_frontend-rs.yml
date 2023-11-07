@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata: #Especificações referentes ao ReplicaSet
-  name: frontend
+  name: frontend-rs
   labels: 
     app: frontend
     
