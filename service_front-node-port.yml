@@ -6,7 +6,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    type: web-server-app
+    type: pod-web-server
   ports:
   - name: http
     port: 80

@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   nome: web-server-pod
   labels:
-    type: web-server-app
+    type: pod-web-server
 
 spec:
   containers:
