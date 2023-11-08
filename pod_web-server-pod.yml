@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  nome: web-server-pod
+  name: web-server-pod
   labels:
     type: pod-web-server
 
@@ -11,6 +11,7 @@ spec:
     image: httpd
     ports:
     - containerPort: 80
+
   - name: web-server-tomcat
     image: tomcat
     ports:
